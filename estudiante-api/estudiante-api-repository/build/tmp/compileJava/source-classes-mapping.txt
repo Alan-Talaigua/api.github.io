@@ -1,0 +1,6 @@
+co/edu/udemedellin/IDSConfig.java
+ co.edu.udemedellin.IDSConfig
+co/edu/udemedellin/mysql/EstudiantesRepository.java
+ co.edu.udemedellin.mysql.EstudiantesRepository
+co/edu/udemedellin/mysql/config/MyBatisEstudiantesConfiguration.java
+ co.edu.udemedellin.mysql.config.MyBatisEstudiantesConfiguration

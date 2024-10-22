@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+server:
+  domain: http://localhost:${server.port}
+  servlet:
+    context-path: /consultas-estudiantes-api-dllo
+  error:
+    whitelabel:
+      enabled: false
+  port: 9035
+  #SWAGGER
+  springdoc:
+    swagger-ui:
+      path: /api-documentation/swagger-ui.html
+    api-docs:
+      enabled: ${SWAGGER_ENABLE:true}

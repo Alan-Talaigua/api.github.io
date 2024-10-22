@@ -1,0 +1,5 @@
+jar.enabled = true
+dependencies {
+    implementation project(':estudiante-api-dto')
+    implementation project(':estudiante-api-service')
+}

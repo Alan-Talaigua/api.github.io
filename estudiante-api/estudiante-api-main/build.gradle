@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(':estudiante-api-controller')
+    implementation project(':estudiante-api-dto')
+    implementation project(':estudiante-api-service')
+    implementation project(':estudiante-api-repository')
+}

@@ -1,0 +1,6 @@
+jar.enabled = true
+dependencies {
+    implementation project(':estudiante-api-dto')
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+}

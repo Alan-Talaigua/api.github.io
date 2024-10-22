@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.edu.udemedellin.mysql.EstudiantesRepository">
+
+    <resultMap id="getEstudiantesOrFinId" type="co.edu.udemedellin.EstudianteDto">
+        <result column="id" property="id" />
+        <result column="nombre" property="nombre" />
+        <result column="apellido" property="apellido" />
+        <result column="edad" property="edad" />
+        <result column="telefono" property="telefono" />
+        <result column="email" property="correo" />
+        <result column="carrera" property="direccion" />
+
+    </resultMap>
+
+    <select id="getEstudiantesOrFinId" resultMap="getEstudiantesOrFinId">
+        select id,nombre,apellido,edad,telefono,email,carrera
+        from crud_estudiantes
+    </select>
+
+</mapper>
